@@ -53,13 +53,7 @@ ds-practica04/
 2. Instalar las librerías necesarias:
 
    ```powershell
-   pip install mssql-python python-dotenv pandas
-   ```
-
-   Alternativamente, para instalar exactamente las mismas versiones usadas en el proyecto:
-
-   ```powershell
-   pip install -r requirements.txt
+   pip install mssql-python python-dotenv numpy pandas matplotlib seaborn scipy scikit-learn
    ```
 
 ## Configuración de la conexión a la base de datos (.env)
@@ -96,3 +90,7 @@ Desde la carpeta `src/`, ejecutar el pipeline de carga completo (crea las tablas
 cd src
 python main.py
 ```
+
+## Ejecución en Google Colab
+
+Para correr en colab solo debe acceder al link que le estaremos proveyendo en el archivo `Instrucciones y enlaces.docx`, en el archivo zip adjunto a la tarea. Este archivo contiene los enlaces a los diferentes servicios que se están consumiendo
